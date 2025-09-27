@@ -54,15 +54,15 @@
 					<label for="nacionalidad">Nacionalidad:</label>
 					<select id="nacionalidad" name="nacionalidad" required>
 						<option value="">Seleccione su nacionalidad</option>
-						<option value="venezolana">Venezolana</option>
-						<option value="marciana">Marciana</option>
-						<option value="colombiana">Colombiana</option>
-						<option value="argentina">Argentina</option>
-						<option value="chilena">Chilena</option>
-						<option value="peruana">Peruana</option>
-						<option value="mexicana">Mexicana</option>
-						<option value="española">Española</option>
-						<option value="otra">Otra</option>
+						<option value="Venezolana">Venezolana</option>
+						<option value="Marciana">Marciana</option>
+						<option value="Colombiana">Colombiana</option>
+						<option value="Argentina">Argentina</option>
+						<option value="Chilena">Chilena</option>
+						<option value="Peruana">Peruana</option>
+						<option value="Mexicana">Mexicana</option>
+						<option value="Española">Española</option>
+						<option value="Otra">Otra</option>
 					</select>
 				</div>
 
@@ -70,6 +70,19 @@
 			</form>
 			<div class="form-footer">Todos los derechos reservados © 2025</div>
 		</div>
+		<!-- Ventana emergente para mostrar los datos -->
+		<div class="modal-overlay" id="modalOverlay">
+			<div class="modal">
+				<div class="modal-header">
+					<h3 class="modal-title">Datos del Formulario</h3>
+					<button class="close-btn" id="closeModal">&times;</button>
+				</div>
+				<div class="modal-body" id="modalBody">
+					<!-- Los datos se insertarán aquí -->
+				</div>
+			</div>
+		</div>
+
 		<!-- Funcionalidad JavaScript -->
 		<script src="formTS.js"></script>
 	</body>
